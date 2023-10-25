@@ -2,16 +2,15 @@
 import {} from 'react'
 import './Modal.css'
 
-const Modal = ({isOpen, closeModal, children }) => {
+const Modal = ({isOpen, children }) => {
   
 
   if (!isOpen) return null;
   
   return (
     <div className='modal-overlay'>
-      <div className="modal-content">
+      <div className="modal-content" style={{padding:"30px"}}>
         {children}
-        <button className='button modal-close' onClick={closeModal}>Close</button>
 
       </div>
     </div>

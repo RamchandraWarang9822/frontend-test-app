@@ -4,3 +4,27 @@
     height: max-content;
     padding: 30px;
 }
+
+.subject-block {
+    margin-bottom: 15px;
+}
+
+.bar-container{
+    /* opacity: 0.5; */
+    border-radius: 25px;
+    /* width: 250px; */
+    height: 12px;
+}
+
+.bar {
+    height: 100%;
+    border-radius: 25px;
+    background: red;
+    z-index: 1000;
+}
+
+.bar-percent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

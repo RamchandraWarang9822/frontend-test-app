@@ -17,6 +17,10 @@
     align-items: center;
 }
 
+.sidebar-button:hover {
+    background: #F7F8FA;
+}
+
 .active {
     background: #F7F8FA;
     color: #445EE2;
