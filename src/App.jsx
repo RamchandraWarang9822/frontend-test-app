@@ -15,7 +15,6 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={openModal}>Open Modal</button>
       <Modal isOpen={isOpen} closeModal={closeModal}>
         <h2>Modal Content</h2>
         <p>This is the content inside the modal.</p>
@@ -28,7 +27,7 @@ function App() {
           <div className="main-container">
             <div className="left-side">
 
-            <TestDetails/>
+            <TestDetails openModal={openModal}/>
             <QuickStatistics/>
             <ComparisionGraph/>
             </div>

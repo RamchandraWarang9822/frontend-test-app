@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { } from "react";
 import './TestDetails.css'
-const TestDetails = () => {
+const TestDetails = ({openModal}) => {
     return (
         <>
             <div className="test-flex">
@@ -13,7 +14,7 @@ const TestDetails = () => {
                         </div>
                     </div>
                 </div>
-                <button className="update-button">Update</button>
+                <button className="button" onClick={openModal}>Update</button>
             </div>
 
         </>
