@@ -1,8 +1,25 @@
+import { useState } from "react";
 import "./App.css";
-import { ComparisionGraph, NavBar, QuickStatistics, SideBar, SyllabusWiseAnalysis, TestDetails } from "./components";
+import { ComparisionGraph, Modal, NavBar, QuickStatistics, SideBar, SyllabusWiseAnalysis, TestDetails } from "./components";
+
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
   return (
-    <>
+    <div className="App">
+      <button onClick={openModal}>Open Modal</button>
+      <Modal isOpen={isOpen} closeModal={closeModal}>
+        <h2>Modal Content</h2>
+        <p>This is the content inside the modal.</p>
+      </Modal>
       <NavBar />
       <div className="board-container">
         <SideBar />
@@ -21,7 +38,7 @@ function App() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

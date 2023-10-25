@@ -1,9 +1,18 @@
+/* eslint-disable react/prop-types */
 import {} from 'react'
 import './Modal.css'
 
-const Modal = () => {
+const Modal = ({isOpen, closeModal, children }) => {
+  if (!isOpen) return null;
+  
   return (
-    <div>Modal</div>
+    <div className='modal-overlay'>
+      <div className="modal-content">
+        {children}
+        <button className='modal-close' onClick={closeModal}>Close</button>
+
+      </div>
+    </div>
   )
 }
 
