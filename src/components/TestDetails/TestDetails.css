@@ -1,0 +1,34 @@
+.test-flex {
+    border: var(--translucent-border);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.test-details {
+    display: flex;
+}
+
+.test-icon {
+    margin-right: 20px;
+}
+
+.test-title {
+    font-weight: 700;
+}
+
+.test-description {
+    font-size: 0.9rem;
+}
+
+.update-button {
+    background: #142683;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 30px;
+}

@@ -1,0 +1,38 @@
+.navbar {
+  height: var(--nav-height);
+  width: 100%;
+  /* background: grey; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: var(--translucent-border);
+}
+
+.nav-container {
+  display: flex;
+  width: 100%;
+  margin: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  margin: 0px 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.username {
+  font-weight: 500;
+}

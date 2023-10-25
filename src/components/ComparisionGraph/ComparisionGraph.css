@@ -1,0 +1,36 @@
+.comparision-graph{
+    border: var(--translucent-border);
+    height: 460px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: max-content;
+}
+
+.desc {
+    font-size: 0.9rem;
+}
+
+.bolder-desc {
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.graph-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.graph-icon {
+    margin-right: 10px;
+}
+
+
+.compare-graph {
+    width: 80%;
+    align-self: center;
+}

@@ -1,0 +1,47 @@
+
+.quick-statistics {
+    border: var(--translucent-border);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.quick-statistics {
+    display: flex;
+    align-items: center;
+}
+
+.statistics {
+    display: flex;
+}
+.status-box {
+    display: flex;
+    padding: 10px;
+}
+
+.rank {
+    border-right: var(--translucent-border);
+}
+
+.percentile {
+    border-right: var(--translucent-border);
+}
+
+
+
+.status-icons {
+    margin: 0px 10px 0px 0px;
+}
+
+.status-text-container {
+    padding: 0px 10px;
+}
+
+.status-name {
+    text-transform: capitalize;
+    font-weight: 300;
+
+}

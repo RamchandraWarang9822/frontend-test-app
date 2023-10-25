@@ -1,0 +1,6 @@
+.syllabus-wise-analysis {
+    border: var(--translucent-border);
+    border-radius: 10px;
+    height: max-content;
+    padding: 30px;
+}
