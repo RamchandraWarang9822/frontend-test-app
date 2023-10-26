@@ -1,6 +1,8 @@
 {
   "name": "cuvette-frontend",
   "private": true,
+  + "homepage": "https://RamchandraWarang9822.github.io/frontend-test-app",
+
   "version": "0.0.0",
   "type": "module",
   "scripts": {
