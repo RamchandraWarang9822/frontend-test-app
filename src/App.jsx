@@ -141,7 +141,7 @@ function App() {
             <div className="left-side">
               <TestDetails openModal={openModal} />
               <QuickStatistics data={tempData} />
-              <ComparisionGraph />
+              <ComparisionGraph data={tempData}/>
             </div>
             <div className="right-side">
               <SyllabusWiseAnalysis />
