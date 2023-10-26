@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import {} from 'react'
+import React from 'react'
 import './Modal.css'
 
 const Modal = ({isOpen, children }) => {

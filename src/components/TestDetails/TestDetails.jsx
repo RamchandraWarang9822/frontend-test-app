@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { } from "react";
+import React from 'react'
 import './TestDetails.css'
 const TestDetails = ({openModal}) => {
     return (

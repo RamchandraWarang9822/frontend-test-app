@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import {} from "react";
+import React from 'react'
 import "./QuickStatistics.css";
 
 const QuickStatistics = ({data}) => {

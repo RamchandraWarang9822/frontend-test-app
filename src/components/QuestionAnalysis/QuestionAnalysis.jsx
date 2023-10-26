@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import {} from "react";
+import React from 'react'
 import "./QuestionAnalysis.css";
 import DonutChart from "react-d3-donut";
 
